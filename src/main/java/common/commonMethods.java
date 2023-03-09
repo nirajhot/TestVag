@@ -2,16 +2,21 @@ package common;
 
 public class commonMethods {
 
-	int capacity = 3;
+	final int capacity = 3;
 	String Queue[] = new String[capacity];
 	int size;
 	int front;
 	int rear;
 
-	public void enQue(String song){
-		Queue[rear] = song;
-		size = size + 1;
-		rear = (rear + 1)%capacity;
+	public void enQue(String song) throws Exception{
+		if(size<capacity){
+			Queue[rear] = song;
+			size = size + 1;
+			rear = (rear + 1)%capacity;
+		}else{
+			System.out.print("Size of queue is exeeded");
+			throw new Exception();
+		}
 	}
 
 	public String deQue(){
@@ -37,7 +42,7 @@ public class commonMethods {
 		}
 	}
 
-	public void play(String song){
+	public void play(String song) throws Exception{
 		deQue();
 		enQue(song);
 		show(song);
