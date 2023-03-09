@@ -17,13 +17,12 @@ public class commonMethods {
 			size = size + 1;
 			rear = (rear + 1)%capacity;
 		}else{
-			System.out.print("Size of queue is exeeded");
+			log.error("Size of queue is exeeded");
 			throw new Exception();
 		}
 	}
 
 	public String deQue(){
-		System.out.println();
 		String data = Queue[front];
 		front= (front + 1)%capacity;
 		size = size - 1;

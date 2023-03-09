@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire8570775523797277879\surefirebooter3839024506802892922.jar C:\Users\User\AppData\Local\Temp\surefire8570775523797277879 2023-03-09T23-00-25_958-jvmRun1 surefire4679704645216896638tmp surefire_07210951009009594119tmp"/>
+    <property name="sun.java.command" value="C:\Users\User\AppData\Local\Temp\surefire3825045280304574642\surefirebooter786626918362782454.jar C:\Users\User\AppData\Local\Temp\surefire3825045280304574642 2023-03-09T23-05-39_365-jvmRun1 surefire2782128962159355436tmp surefire_0465092876064348172tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\User\workspace\TVT\target\test-classes;C:\Users\User\workspace\TVT\target\classes;C:\Users\User\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\User\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\User\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\User\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\User"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire8570775523797277879\surefirebooter3839024506802892922.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\User\AppData\Local\Temp\surefire3825045280304574642\surefirebooter786626918362782454.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_333\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_333\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,6 +61,6 @@
     <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="playS4" classname="testCase.songsPlayed" time="0.002"/>
-  <testcase name="playS2" classname="testCase.songsPlayed" time="0"/>
-  <testcase name="playS1" classname="testCase.songsPlayed" time="0.001"/>
+  <testcase name="playS2" classname="testCase.songsPlayed" time="0.001"/>
+  <testcase name="playS1" classname="testCase.songsPlayed" time="0.003"/>
 </testsuite>
