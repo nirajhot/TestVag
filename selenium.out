@@ -1,0 +1,16 @@
+2023-03-09 23:40:01 INFO  commonMethods:40 - The original playlist would look like ->> 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S1 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S2 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S3 
+2023-03-09 23:40:01 INFO  commonMethods:34 - When S4 song is played, the playlist looks like ->> 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S2 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S3 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S4 
+2023-03-09 23:40:01 INFO  commonMethods:36 - When S2 song is played, the playlist looks like ->> 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S3 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S4 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S2 
+2023-03-09 23:40:01 INFO  commonMethods:38 - When S1 song is played, the playlist looks like ->> 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S4 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S2 
+2023-03-09 23:40:01 INFO  commonMethods:43 - S1 
