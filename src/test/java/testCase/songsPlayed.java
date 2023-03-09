@@ -18,6 +18,5 @@ public class songsPlayed extends baseClass{
 	@Test(priority=2, dependsOnMethods="playS2")
 	public void playS1() throws Exception{
 		q.play("S1");
-		System.out.println();
 	}
 }
