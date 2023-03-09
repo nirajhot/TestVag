@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="TVT" duration-ms="62" started-at="2023-03-09T17:53:06Z" finished-at="2023-03-09T17:53:06Z">
+  <suite name="TVT" duration-ms="79" started-at="2023-03-09T18:02:40Z" finished-at="2023-03-09T18:02:40Z">
     <groups>
     </groups>
-    <test name="songTestCase" duration-ms="62" started-at="2023-03-09T17:53:06Z" finished-at="2023-03-09T17:53:06Z">
+    <test name="songTestCase" duration-ms="79" started-at="2023-03-09T18:02:40Z" finished-at="2023-03-09T18:02:40Z">
       <class name="testCase.songsPlayed">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testCase.songsPlayed@71be98f5]" name="setUp" is-config="true" duration-ms="48" started-at="2023-03-09T17:53:06Z" finished-at="2023-03-09T17:53:06Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCase.songsPlayed@71be98f5]" name="setUp" is-config="true" duration-ms="58" started-at="2023-03-09T18:02:40Z" finished-at="2023-03-09T18:02:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="playS4()[pri:0, instance:testCase.songsPlayed@71be98f5]" name="playS4" duration-ms="2" started-at="2023-03-09T17:53:06Z" finished-at="2023-03-09T17:53:06Z">
+        <test-method status="PASS" signature="playS4()[pri:0, instance:testCase.songsPlayed@71be98f5]" name="playS4" duration-ms="2" started-at="2023-03-09T18:02:40Z" finished-at="2023-03-09T18:02:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- playS4 -->
-        <test-method status="PASS" signature="playS2()[pri:1, instance:testCase.songsPlayed@71be98f5]" name="playS2" duration-ms="1" started-at="2023-03-09T17:53:06Z" depends-on-methods="testCase.songsPlayed.playS4" finished-at="2023-03-09T17:53:06Z">
+        <test-method status="PASS" signature="playS2()[pri:1, instance:testCase.songsPlayed@71be98f5]" name="playS2" duration-ms="1" started-at="2023-03-09T18:02:40Z" depends-on-methods="testCase.songsPlayed.playS4" finished-at="2023-03-09T18:02:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- playS2 -->
-        <test-method status="PASS" signature="playS1()[pri:2, instance:testCase.songsPlayed@71be98f5]" name="playS1" duration-ms="2" started-at="2023-03-09T17:53:06Z" depends-on-methods="testCase.songsPlayed.playS2" finished-at="2023-03-09T17:53:06Z">
+        <test-method status="PASS" signature="playS1()[pri:2, instance:testCase.songsPlayed@71be98f5]" name="playS1" duration-ms="2" started-at="2023-03-09T18:02:40Z" depends-on-methods="testCase.songsPlayed.playS2" finished-at="2023-03-09T18:02:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- playS1 -->
