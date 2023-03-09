@@ -1,5 +1,8 @@
 package common;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 public class commonMethods {
 
 	final int capacity = 3;
@@ -7,7 +10,8 @@ public class commonMethods {
 	int size;
 	int front;
 	int rear;
-
+	static Logger log = Logger.getLogger(commonMethods.class);
+	
 	public void enQue(String song) throws Exception{
 		if(size<capacity){
 			Queue[rear] = song;
@@ -29,16 +33,16 @@ public class commonMethods {
 
 	public void show(String song){
 		if(song=="S4"){
-			System.out.print("When "+ song + " song is played, the playlist looks like ->> ");
+			log.info("When "+ song + " song is played, the playlist looks like ->> ");
 		}else if(song=="S2"){
-			System.out.print("When "+ song + " song is played, the playlist looks like ->> ");
+			log.info("When "+ song + " song is played, the playlist looks like ->> ");
 		}else if(song=="S1"){
-			System.out.print("When "+ song + " song is played, the playlist looks like ->> ");
+			log.info("When "+ song + " song is played, the playlist looks like ->> ");
 		}else if(song=="orignal"){
-			System.out.print("The orginal playlist would look like ->> ");
+			log.info("The original playlist would look like ->> ");
 		}
 		for(int i=0;i<size;i++){
-			System.out.print(Queue[(front + i)%capacity]+ " ");
+			log.info(Queue[(front + i)%capacity]+ " ");
 		}
 	}
 
