@@ -10,7 +10,7 @@
 	
 	Test Package
 		testCase
-			songsPlayed : class is used to tests the login for newly played songs i.e S4, S2 and finally S1
+			songsPlayed : class is used to tests the logic for newly played songs i.e S4, S2 and finally S1
 			
 	MAVEN Dependency : Added only required jars
 	
@@ -24,6 +24,6 @@
 
 #Command for execution:
 	Navigate to particular project path
-	Open command line and hit mvn test command
+	Open command line and hit mvn clean test command
 	
 #Note: I have solved above problem using Queue.
