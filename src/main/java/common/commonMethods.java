@@ -5,8 +5,8 @@ import org.apache.log4j.Logger;
 public class commonMethods {
 
 	final int capacity = 3;
-	String Queue[] = new String[capacity];
-	int size;
+	protected String Queue[] = new String[capacity];
+	protected int size;
 	int front;
 	int rear;
 	static Logger log = Logger.getLogger(commonMethods.class);
@@ -17,8 +17,8 @@ public class commonMethods {
 			size = size + 1;
 			rear = (rear + 1)%capacity;
 		}else{
-			log.error("Size of queue is exeeded");
-			throw new Exception();
+			log.error("Size of queue is full");
+			//throw new Exception();
 		}
 	}
 
@@ -29,7 +29,8 @@ public class commonMethods {
 		return data;
 	}
 
-	public void show(String song){
+	public String show(String song){
+		String currentPool="";
 		if(song=="S4"){
 			log.info("When "+ song + " song is played, the playlist looks like ->> ");
 		}else if(song=="S2"){
@@ -41,12 +42,14 @@ public class commonMethods {
 		}
 		for(int i=0;i<size;i++){
 			log.info(Queue[(front + i)%capacity]+ " ");
+			currentPool= currentPool+Queue[(front + i)%capacity];
 		}
+		return currentPool;
 	}
 
 	public void play(String song) throws Exception{
 		deQue();
 		enQue(song);
-		show(song);
+		//show(song);
 	}
 }

@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,6 +113,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-TVT" title="testCase.songsPlayed" hash-for-method="playS4">playS4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TVT" title="testCase.songsPlayed" hash-for-method="playS5">playS5</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TVT -->
@@ -152,6 +157,13 @@
                   <a name="playS4">
                   </a> <!-- playS4 -->
                   <span class="method-name">playS4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playS5">
+                  </a> <!-- playS5 -->
+                  <span class="method-name">playS5</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,7 +220,7 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'playS4')
 data.setCell(0, 2, 'testCase.songsPlayed')
@@ -216,16 +228,20 @@ data.setCell(0, 3, 2);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'playS1')
 data.setCell(1, 2, 'testCase.songsPlayed')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'playS2')
 data.setCell(2, 2, 'testCase.songsPlayed')
 data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'playS5')
+data.setCell(3, 2, 'testCase.songsPlayed')
+data.setCell(3, 3, 0);
 window.suiteTableData['TVT']= { tableData: data, tableDiv: 'times-div-TVT'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 ms</span>
+              <span class="suite-total-time">Total running time: 5 ms</span>
               <div id="times-div-TVT">
               </div> <!-- times-div-TVT -->
             </div> <!-- times-div -->
@@ -258,15 +274,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">playS4</span>
-                <span class="method-start">44 ms</span>
+                <span class="method-start">65 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">playS2</span>
-                <span class="method-start">48 ms</span>
+                <span class="method-start">70 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">playS1</span>
-                <span class="method-start">49 ms</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">playS5</span>
+                <span class="method-start">74 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

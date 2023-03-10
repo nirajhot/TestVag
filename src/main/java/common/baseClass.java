@@ -1,6 +1,7 @@
 package common;
 
 import org.apache.log4j.PropertyConfigurator;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 
 public class baseClass {
@@ -15,6 +16,7 @@ public class baseClass {
 		q.enQue("S1");
 		q.enQue("S2");
 		q.enQue("S3");
-		q.show("orignal");
+		Assert.assertEquals("S1S2S3", q.show("orignal"), "Test Passed: Expected Sequence is getting matched");
+		
 	}
 }
