@@ -4,7 +4,7 @@
 
 	<test name="songTestCase">
 		<classes>
-			<class name="testCase.songsPlayed" />
+			<class name="testCase.SongsPlayed" />
 		</classes>
 	</test>
 	

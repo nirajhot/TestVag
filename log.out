@@ -1,17 +1,17 @@
-2023-03-10 15:01:49 INFO  commonMethods:41 - The original playlist would look like ->> 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S1 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S2 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S3 
-2023-03-10 15:01:49 INFO  commonMethods:35 - When S4 song is played, the playlist looks like ->> 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S2 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S3 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S4 
-2023-03-10 15:01:49 INFO  commonMethods:37 - When S2 song is played, the playlist looks like ->> 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S3 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S4 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S2 
-2023-03-10 15:01:49 INFO  commonMethods:39 - When S1 song is played, the playlist looks like ->> 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S4 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S2 
-2023-03-10 15:01:49 INFO  commonMethods:44 - S1 
-2023-03-10 15:01:49 ERROR commonMethods:20 - Size of queue is full
+2023-03-14 22:52:03 INFO  CommonMethods:39 - The original playlist would look like below ->> 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S1 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S2 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S3 
+2023-03-14 22:52:03 INFO  CommonMethods:37 - When S4 song is played, the playlist looks like ->> 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S2 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S3 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S4 
+2023-03-14 22:52:03 INFO  CommonMethods:37 - When S2 song is played, the playlist looks like ->> 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S3 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S4 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S2 
+2023-03-14 22:52:03 INFO  CommonMethods:37 - When S1 song is played, the playlist looks like ->> 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S4 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S2 
+2023-03-14 22:52:03 INFO  CommonMethods:54 - S1 
+2023-03-14 22:52:03 ERROR CommonMethods:21 - Size of queue is full
